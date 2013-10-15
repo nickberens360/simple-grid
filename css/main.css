@@ -1,0 +1,109 @@
+/* line 4, ../sass/main.scss */
+[class*='colspan-'] {
+  float: none;
+  left: auto;
+  margin-right: 0;
+  width: 100%;
+  margin-bottom: 0.83333%;
+}
+
+/* line 11, ../sass/main.scss */
+.grid-row {
+  margin-bottom: 0;
+}
+
+/* line 14, ../sass/main.scss */
+.grid-row:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width: 700px) {
+  /* line 18, ../sass/main.scss */
+  .grid-row {
+    margin-bottom: 0.83333%;
+  }
+
+  /* line 21, ../sass/main.scss */
+  [class*='colspan-'] {
+    position: relative;
+    left: 0.41667%;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 0.83333%;
+    margin-bottom: 0;
+  }
+
+  /* line 29, ../sass/main.scss */
+  [class*='colspan-']:last-of-type {
+    margin-right: 0;
+  }
+
+  /* line 32, ../sass/main.scss */
+  .colspan-1 {
+    width: 7.5%;
+  }
+
+  /* line 35, ../sass/main.scss */
+  .colspan-2 {
+    width: 15.83333%;
+  }
+
+  /* line 38, ../sass/main.scss */
+  .colspan-3 {
+    width: 24.16667%;
+  }
+
+  /* line 41, ../sass/main.scss */
+  .colspan-4 {
+    width: 32.5%;
+  }
+
+  /* line 44, ../sass/main.scss */
+  .colspan-5 {
+    width: 40.83333%;
+  }
+
+  /* line 47, ../sass/main.scss */
+  .colspan-6 {
+    width: 49.16667%;
+  }
+
+  /* line 50, ../sass/main.scss */
+  .colspan-7 {
+    width: 57.5%;
+  }
+
+  /* line 53, ../sass/main.scss */
+  .colspan-8 {
+    width: 65.83333%;
+  }
+
+  /* line 56, ../sass/main.scss */
+  .colspan-9 {
+    width: 74.16667%;
+  }
+
+  /* line 59, ../sass/main.scss */
+  .colspan-10 {
+    width: 82.5%;
+  }
+
+  /* line 62, ../sass/main.scss */
+  .colspan-11 {
+    width: 90.83333%;
+  }
+
+  /* line 65, ../sass/main.scss */
+  .colspan-12 {
+    width: 99.16667%;
+  }
+
+  /* line 68, ../sass/main.scss */
+  .grid-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
