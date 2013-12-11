@@ -1,12 +1,17 @@
 [class*='colspan-'] {
+	width:100%;
 	position:relative;
- 	 float: left;
+ 	 float: none;
 	-moz-box-sizing: border-box; 
 	-webkit-box-sizing: border-box; 
 	box-sizing: border-box;
 	margin-bottom:0;
 	border:1px solid white;
 	background:#D1D1D1;
+}
+@media (min-width: 600px){ 
+[class*='colspan-'] {
+ 	 float: left;
 }
 [class*='colspan-']:last-of-type {
 	margin-right:0;
@@ -52,5 +57,5 @@
   display: table;
   clear: both;
 }
-
+}
 

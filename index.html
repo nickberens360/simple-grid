@@ -166,17 +166,22 @@
 </div>
 <!--<a class="btns" href="download/simple-grid.zip">Download Demo</a>-->
 
-<h2>The CSS</h2>
+
 <pre name="code" class="prettyprint linenums">
 [class*='colspan-'] {
+	width:100%;
 	position:relative;
- 	 float: left;
+ 	 float: none;
 	-moz-box-sizing: border-box; 
 	-webkit-box-sizing: border-box; 
 	box-sizing: border-box;
 	margin-bottom:0;
 	border:1px solid white;
 	background:#D1D1D1;
+}
+@media (min-width: 600px){ 
+[class*='colspan-'] {
+ 	 float: left;
 }
 [class*='colspan-']:last-of-type {
 	margin-right:0;
@@ -222,9 +227,7 @@
   display: table;
   clear: both;
 }
-
-
-
+}
 </pre>
 <script>
 prettyPrint();
