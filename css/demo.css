@@ -37,4 +37,8 @@ p{
 .prettyprint{
 	text-align:left;
 }
+.gist-code{
+	text-align:left;
+	margin-top:40px;
+}
 
